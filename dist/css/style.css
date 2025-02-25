@@ -1201,7 +1201,7 @@ summary {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-@media (min-width: 400px) and (max-width: 728px) {
+@media (min-width: 200px) and (max-width: 728px) {
   .hero-text-landing-page {
     font-weight: 700;
   }
