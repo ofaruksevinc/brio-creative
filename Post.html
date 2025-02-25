@@ -67,14 +67,13 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon" style="filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(1deg) brightness(118%) contrast(119%);"></span>
         </button>
         <div class="offcanvas-background"></div>
 
-        <!-- Sidebar for mobile -->
+        <!-- Sidebar fr mobile -->
         <nav class="offcanvas-menu" id="navbarNav">
           <div class="offcanvas-header border-0">
-            <!-- <h5 class="offcanvas-title text-black">Title</h5> -->
             <img
               class="offcanvas-title"
               src="./assets/image/img1.png"
@@ -84,17 +83,23 @@
             <button type="button" class="btn-close" aria-label="Close"></button>
           </div>
           <ul class="navbar-nav mx-3">
-            <li class="nav-item dropdown">
+            <li class="nav-item">
               <a
-                class="nav-link font-krona-one text-uppercase  dropdown-toggle"
+                class="nav-link font-krona-one text-uppercase"
                 style="font-size: 12px"
                 href="index.html"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
               >
                 Anasayfa
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link font-krona-one text-uppercase"
+                style="font-size: 12px"
+                href="About.html"
+              >
+                Hakkımızda
               </a>
             </li>
 
@@ -108,43 +113,21 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Pages
+                Faydalı Linkler
               </a>
               <ul
                 class="dropdown-menu bg-primary-custom"
                 style="border: none"
                 aria-labelledby="navbarDropdown"
               >
-                <li>
-                  <a
-                    class="dropdown-item font-krona-one text-uppercase "
-                    style="font-size: 12px"
-                    href="About.html"
-                    >About</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item font-krona-one text-uppercase "
-                    style="font-size: 12px"
-                    href="Pricing.html"
-                    >Pricing</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item font-krona-one text-uppercase "
-                    style="font-size: 12px"
-                    href="Single-work.html"
-                    >Single Work</a
-                  >
-                </li>
+              
+        
                 <li>
                   <a
                     class="dropdown-item font-krona-one text-uppercase "
                     style="font-size: 12px"
                     href="Reviews.html"
-                    >Reviews</a
+                    >Yorumlar</a
                   >
                 </li>
                 <li>
@@ -155,83 +138,18 @@
                     >Blog</a
                   >
                 </li>
-                <li>
-                  <a
-                    class="dropdown-item font-krona-one text-uppercase "
-                    style="font-size: 12px"
-                    href="Post.html"
-                    >Post</a
-                  >
-                </li>
+           
               </ul>
             </li>
 
-            <li class="nav-item dropdown">
+            <li class="nav-item">
               <a
-                class="nav-link font-krona-one text-uppercase  dropdown-toggle"
+                class="nav-link font-krona-one text-uppercase"
                 style="font-size: 12px"
                 href="Services.html"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
               >
-                Services
+                HİZMETLERİMİZ
               </a>
-              <ul
-                class="dropdown-menu bg-primary-custom"
-                style="border: none"
-                aria-labelledby="navbarDropdown"
-              >
-                <div>
-                  <h6
-                    class=" font-krona-one fw-light"
-                    style="font-size: 12px"
-                  >
-                    BRANDING
-                  </h6>
-                  <a class="dropdown-item " href="#">Design</a>
-                  <a class="dropdown-item " href="#">Graphic</a>
-                  <a class="dropdown-item " href="#">Ideas</a>
-                  <a class="dropdown-item " href="#">Brainstorm</a>
-                </div>
-                <div>
-                  <h6
-                    class=" font-krona-one fw-light mt-3"
-                    style="font-size: 12px"
-                  >
-                    MARKETING
-                  </h6>
-                  <a class="dropdown-item " href="#">Email</a>
-                  <a class="dropdown-item " href="#">Content</a>
-                  <a class="dropdown-item " href="#">Digital</a>
-                  <a class="dropdown-item " href="#">All-in-One</a>
-                </div>
-                <div>
-                  <h6
-                    class=" font-krona-one fw-light mt-3"
-                    style="font-size: 12px"
-                  >
-                    STRATEGY
-                  </h6>
-                  <a class="dropdown-item " href="#">Social Media</a>
-                  <a class="dropdown-item " href="#">Search Engine</a>
-                  <a class="dropdown-item " href="#">Social Ads</a>
-                  <a class="dropdown-item " href="#">Affiliate</a>
-                </div>
-                <div>
-                  <h6
-                    class=" font-krona-one fw-light mt-3"
-                    style="font-size: 12px"
-                  >
-                    WEBSITE
-                  </h6>
-                  <a class="dropdown-item " href="#">Web Design</a>
-                  <a class="dropdown-item " href="#">Maintenance</a>
-                  <a class="dropdown-item " href="#">Copywriting</a>
-                  <a class="dropdown-item " href="#">Media</a>
-                </div>
-              </ul>
             </li>
 
             <li class="nav-item">
@@ -276,13 +194,31 @@
             <li class="nav-item dropdown" style="z-index: 100">
               <a
                 class="nav-link d-flex align-items-center gap-3  font-krona-one text-uppercase me-4"
+                href="About.html"
+                id="navbarDropdownLg"
+                role="button"
+                aria-expanded="false"
+                style="font-size: 12px"
+              >
+                <p class="mb-0">Hakkımızda</p>
+                <img
+                  src="./assets/icons/IconArrowDown.png"
+                  alt="Dropdown Icon"
+                  class="dropdown-icon"
+                />
+              </a>
+            </li>
+
+            <li class="nav-item dropdown" style="z-index: 100">
+              <a
+                class="nav-link d-flex align-items-center gap-3  font-krona-one text-uppercase me-4"
                 href="#"
                 id="navbarDropdownLg"
                 role="button"
                 aria-expanded="false"
                 style="font-size: 12px"
               >
-                <p class="mb-0">Pages</p>
+                <p class="mb-0">Faydalı Linkler</p>
                 <img
                   src="./assets/icons/IconArrowDown.png"
                   alt="Dropdown Icon"
@@ -298,24 +234,8 @@
                   <a
                     class="dropdown-item  font-krona-one text-uppercase"
                     style="font-size: 12px; z-index: 100"
-                    href="About.html"
-                    >About</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item  font-krona-one text-uppercase"
-                    style="font-size: 12px; z-index: 100"
-                    href="Single-work.html"
-                    >Single Work</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item  font-krona-one text-uppercase"
-                    style="font-size: 12px; z-index: 100"
                     href="Reviews.html"
-                    >Reviews</a
+                    >Yorumlar</a
                   >
                 </li>
                 <li>
@@ -324,14 +244,6 @@
                     style="font-size: 12px; z-index: 100"
                     href="Blog.html"
                     >Blog</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item  font-krona-one text-uppercase"
-                    style="font-size: 12px; z-index: 100"
-                    href="Post.html"
-                    >Post</a
                   >
                 </li>
               
