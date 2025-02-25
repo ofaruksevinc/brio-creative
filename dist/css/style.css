@@ -543,6 +543,13 @@ body {
   top: 150px;
 }
 
+@media screen and (max-width: 440px) {
+  .position-image-3 {
+    right: 0;
+    top: 100px !important; 
+  }
+}
+
 .image-position-approach-3 {
   position: relative;
   /* right: 0;
