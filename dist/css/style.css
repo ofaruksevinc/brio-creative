@@ -546,7 +546,7 @@ body {
 @media screen and (max-width: 440px) {
   .position-image-3 {
     right: 0;
-    top: 100px !important; 
+    top: 70px !important; 
   }
 }
 
@@ -1201,9 +1201,9 @@ summary {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-@media (min-width: 425px) and (max-width: 728px) {
+@media (min-width: 400px) and (max-width: 728px) {
   .hero-text-landing-page {
-    font-weight: 500;
+    font-weight: 700;
   }
 
   .sub-text-medium {
